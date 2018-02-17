@@ -5,4 +5,8 @@ describe Product do
 
   it {is_expected.to belong_to :menu}
 
+  it { is_expected.to have_db_column :price}
+
+  it { is_expected.to belong_to :category}
+
 end
